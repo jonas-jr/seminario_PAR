@@ -7,7 +7,6 @@
 ### Integrantes
 MATRÍCULA - NOME COMPLETO
 
-
 # Robô Assistente para Distribuição de Medicamentos em Hospitais
 **Francieli M. de Carvalho¹, Jonas G. S. Junior², Matheus F. C. Brakes³, Victor G. Pimenta⁴**
 
@@ -64,3 +63,5 @@ O impacto dos resultados será medido através das seguintes métricas:
 - **Precisão na Navegação**: Acurácia do robô ao seguir as rotas planejadas e evitar obstáculos.
 - **Feedback dos Usuários**: Nível de satisfação dos profissionais de saúde com o desempenho do robô.
 - **Redução de Erros Humanos**: Comparação da taxa de erros antes e depois da implementação do robô.
+
+
