@@ -5,7 +5,11 @@
 ## Seminário
 
 ### Integrantes
-MATRÍCULA - NOME COMPLETO
+202010396 - FRANCIELI MOREIRA DE CARVALHO
+202005489 - JONAS GOMES DA SILVA JÚNIOR
+202005498 - MATHEUS FARES COSTA BRAKES
+ 202005506 - VICTOR GUERREIRO PIMENTA
+ 
 
 # Robô Assistente para Distribuição de Medicamentos em Hospitais
 **Francieli M. de Carvalho¹, Jonas G. S. Junior², Matheus F. C. Brakes³, Victor G. Pimenta⁴**
