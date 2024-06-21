@@ -76,7 +76,9 @@ Esta seção explica o processo metodológico para desenvolver o sistema de entr
 
 ### A. Planejamento e Design
 - **Identificação de Requisitos**: Definição dos requisitos do sistema, incluindo as funcionalidades necessárias para a navegação do robô e a interação com o site em Streamlit.
-- **Design do Sistema**: Elaboração do design do robô TurtleBot integrado com um site desenvolvido em Streamlit, que serve como interface para o pedido de medicamentos. Este design considera não só a navegação autônoma e a entrega física dos medicamentos, mas também a interface digital para entrada de pedidos e o backend para processamento dessas ordens.
+- **Design do Sistema**: Elaboração do design do robô TurtleBot integrado com um site desenvolvido em Streamlit, que serve como interface para o pedido de medicamentos. Este design considera não só a navegação autônoma e a entrega física dos medicamentos, mas também a interface digital para entrada de pedidos e o backend para processamento dessas ordens.]
+  
+![WhatsApp Image 2024-06-20 at 23 47 00](https://github.com/2024-1-INF0429-Robotics/seminario-carebot/assets/76070394/759a667d-338f-43d8-a5fa-06f93391066d)
 
 ### B. Desenvolvimento de Software
 
@@ -92,4 +94,4 @@ Esta seção explica o processo metodológico para desenvolver o sistema de entr
 ### D.  Implementação e Avaliação
 - **Implementação no Ambiente Real**: Implantação do robô TurtleBot no hospital, iniciando as operações de entrega baseadas nas ordens recebidas através do site Streamlit.
 - **Monitoramento e Coleta de Dados**: Monitoramento contínuo para coletar dados sobre a precisão e a eficiência das entregas, bem como a usabilidade do site Streamlit.
-- - **Avaliação do Desempenho**:Análise dos dados testes realizados para avaliar o sucesso das entregas, a integridade da comunicação via API e a possível satisfação dos usuários com a interface do site.
+- **Avaliação do Desempenho**:Análise dos dados testes realizados para avaliar o sucesso das entregas, a integridade da comunicação via API e a possível satisfação dos usuários com a interface do site.
