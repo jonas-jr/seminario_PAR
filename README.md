@@ -71,4 +71,25 @@ O impacto dos resultados será medido através das seguintes métricas:
 - **Feedback dos Usuários**: Nível de satisfação dos profissionais de saúde com o desempenho do robô.
 - **Redução de Erros Humanos**: Comparação da taxa de erros antes e depois da implementação do robô.
 
+## III.  Metodologia
+Esta seção explica o processo metodológico para desenvolver o sistema de entrega de medicamentos utilizando o robô TurtleBot, com ênfase na integração de um site em Streamlit que serve como interface para entrada de ordens de medicamentos e na comunicação dessas ordens ao robô através de uma API.
 
+### A. Planejamento e Design
+- **Identificação de Requisitos**: Definição dos requisitos do sistema, incluindo as funcionalidades necessárias para a navegação do robô e a interação com o site em Streamlit.
+- **Design do Sistema**: Elaboração do design do robô TurtleBot integrado com um site desenvolvido em Streamlit, que serve como interface para o pedido de medicamentos. Este design considera não só a navegação autônoma e a entrega física dos medicamentos, mas também a interface digital para entrada de pedidos e o backend para processamento dessas ordens.
+
+### B. Desenvolvimento de Software
+
+- **Interface segura de login para médicos:** :Utilizando práticas robustas de segurança como criptografia de senhas e autenticação multifator. Formulário web para pedidos de medicamentos, incluindo campos para identificação do paciente, seleção de medicamento, dosagem, instruções especiais e urgência do pedido. Esta funcionalidade centraliza e simplifica o processo de prescrição de medicamentos.
+- **Integração com o Sistema do Hospital** : Mecanismos para integrar o site com os sistemas existentes do hospital, como sistemas de gerenciamento de pacientes e de estoque de medicamentos. Assegurar que as informações de identificação do paciente e os dados de estoque estejam sempre atualizados, permitindo uma operação mais eficiente e precisa.
+- **Processamento de Pedidos** : Criação de uma API que comunica diretamente com o robô TurtleBot para processar e entregar os pedidos de medicamentos de forma automatizada. Implementação de funcionalidades para revisão e confirmação dos pedidos antes de serem enviados ao robô, garantindo que todos os detalhes estejam corretos e completos.
+- **Desenvolvimento de Localização, Percepção e Navegação do Robô Utilizando ROS2:** : Implementação de algoritmos de localização para determinar a posição do robô dentro do ambiente hospitalar, utilizando sensores como LIDAR e câmeras. Desenvolvimento de funcionalidades de percepção para detecção de obstáculos e identificação de rotas seguras. Navegação autônoma do robô para entrega dos medicamentos, incluindo planejamento de trajetórias e controle de movimento, garantindo a entrega eficiente e segura dos medicamentos.
+
+### C. Simulação e Testes
+- **Configuração do Ambiente Simulado no Gazebo**: Simulação para testar a navegação e entrega do medicamento do TurtleBot.
+- **Testes de Integração**: Verificação da comunicação eficiente entre o site Streamlit, a API, e o robô. Testes para garantir que as ordens de medicamentos sejam processadas corretamente pelo robô. E se a rota e navegação estão de acordo com o local de entrega.
+
+### D.  Implementação e Avaliação
+- **Implementação no Ambiente Real**: Implantação do robô TurtleBot no hospital, iniciando as operações de entrega baseadas nas ordens recebidas através do site Streamlit.
+- **Monitoramento e Coleta de Dados**: Monitoramento contínuo para coletar dados sobre a precisão e a eficiência das entregas, bem como a usabilidade do site Streamlit.
+- - **Avaliação do Desempenho**:Análise dos dados testes realizados para avaliar o sucesso das entregas, a integridade da comunicação via API e a possível satisfação dos usuários com a interface do site.
