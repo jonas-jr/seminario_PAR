@@ -105,7 +105,8 @@ Esta seção explica o processo metodológico para desenvolver o sistema de entr
 ### IV.  Resultados e Conclusões
 
 ### A. Resultados
-- **Resultados**: Após implementar e testar o sistema de entrega de medicamentos utilizando o TurtleBot 4, obtivemos resultados significativos que comprovam a eficácia do nosso método. A seguir, apresentamos os principais resultados:
+
+- Após implementar e testar o sistema de entrega de medicamentos utilizando o TurtleBot 4, obtivemos resultados significativos que comprovam a eficácia do nosso método. A seguir, apresentamos os principais resultados:
 - **Mapa**: Utilizando o SLAM, geramos um mapa detalhado do ambiente hospitalar, como mostrado na Figura 1. Este mapa foi fundamental para a navegação autônoma do robô.
 
   ![WhatsApp Image 2024-07-10 at 21 54 59](https://github.com/2024-1-INF0429-Robotics/seminario-carebot/assets/76070394/7999a87e-1baf-40f7-b83a-ff7f4c7ae8db)
