@@ -84,8 +84,7 @@ Esta seção explica o processo metodológico para desenvolver o sistema de entr
 ### A. Planejamento e Design
 - **Identificação de Requisitos**: Definição dos requisitos do sistema, incluindo as funcionalidades necessárias para a navegação do robô e a interação com o site em Streamlit.
 - **Design do Sistema**: Elaboração do design do robô TurtleBot integrado com o site desenvolvido em Streamlit, que serve como interface para o pedido de medicamentos. Este design considera não só a navegação autônoma e a entrega física dos medicamentos, mas também a interface digital para entrada de pedidos e o backend para processamento dessas ordens.]
-  
-![WhatsApp Image 2024-06-20 at 23 47 00](https://github.com/2024-1-INF0429-Robotics/seminario-carebot/assets/76070394/759a667d-338f-43d8-a5fa-06f93391066d)
+![Diagrama de fluxo](https://github.com/2024-1-INF0429-Robotics/seminario-carebot/assets/76070394/a23bb906-6dcf-40de-9070-9cdff1593861)
 
 ### B. Desenvolvimento de Software
 
