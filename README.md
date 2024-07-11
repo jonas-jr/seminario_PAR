@@ -62,8 +62,7 @@ Os métodos incluem:
 - **Simulação e Treinamento**: Utilização de ambientes simulados como Gazebo e Rviz2 para treinar e monitorar o robô antes e depois da implementação no ambiente real.
 
 ### E. Avaliação
-O impacto dos resultados será medido através das seguintes métricas:
-
+O impacto dos resultados é medido através das seguintes métricas:
 - **Taxa de Sucesso nas Entregas**: Percentual de entregas realizadas corretamente e dentro do tempo estipulado.
 - **Tempo de Entrega**: Tempo médio necessário para completar uma entrega.
 - **Precisão na Navegação**: Acurácia do robô ao seguir as rotas planejadas e evitar obstáculos.
