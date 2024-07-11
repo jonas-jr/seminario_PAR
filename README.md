@@ -21,7 +21,7 @@
 Emails: francielimoreira@discente.ufg.br, jonasjunior@discente.ufg.br, brakes_fares@discente.ufg.br, victorguerreiro@discente.ufg.br
 
 ## Resumo
-Este trabalho propõe o desenvolvimento de um robô utilizando Turtlebot para auxiliar na distribuição de medicamentos em hospitais. O robô será programado para entregar medicamentos específicos para cada paciente conforme configurado pela enfermeira, navegando de forma autonôma e evitando obstáculos durante sua rota.
+Este trabalho propõe o desenvolvimento de um robô utilizando Turtlebot para auxiliar na distribuição de medicamentos em hospitais. O robô será programado para entregar medicamentos específicos para cada paciente conforme configurado pela enfermeira e/ou médico, navegando de forma autonôma e evitando obstáculos durante sua rota.
 
 **Palavras-chave**: robótica, Turtlebot, hospitais, distribuição de medicamentos, detecção de obstáculos.
 
