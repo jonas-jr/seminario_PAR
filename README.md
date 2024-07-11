@@ -55,11 +55,11 @@ Os dados a serem explorados neste projeto incluem informações detalhadas sobre
 - **Tempos de Entrega**: Dados sobre o tempo total gasto em cada entrega, incluindo tempo de deslocamento e tempo de interação com os profissionais de saúde.
 
 ### D. Métodos
-
-- **Navegação Autônoma**: Algoritmos que permitem ao robô criar um mapa do ambiente e ao mesmo tempo determinar sua localização dentro desse mapa. O uso de SLAM é crucial para que o TurtleBot possa se localizar e mapear o ambiente e assim se mover de forma autônoma e evitar obstáculos.
-- **Planejamento de Rotas**: Algoritmos de planejamento de rotas para garantir a entrega eficiente e precisa dos medicamentos são usados como o Nav2Goal do Rviz2.
+Os métodos revisados incluirão:
+- **Navegação Autônoma**: Criação de mapas do ambiente e ao mesmo tempo a identificação do robô sobre sua localização dentro desse mapa. O uso de SLAM é crucial para que o TurtleBot possa se localizar e mapear o ambiente e assim se mover de forma autônoma e evitar obstáculos.
+- **Planejamento de Rotas**: Implementação de algoritmos de planejamento de rotas para garantir a entrega eficiente e precisa dos medicamentos são usados como o Nav2Goal do Rviz2.
 - **Reconhecimento de Objetos**: Uso do Lidar para detecção de referências visuais importantes no ambiente hospitalar para a deteção de obstáculos em tempo real.
-- **Simulação e Treinamento**: Utilização de ambientes simulados como Gazebo e Rviz2 para treinar o robô antes da implementação no ambiente real.
+- **Simulação e Treinamento**: Utilização de ambientes simulados como Gazebo e Rviz2 para treinar e monitorar o robô antes e depois da implementação no ambiente real.
 
 ### E. Avaliação
 O impacto dos resultados será medido através das seguintes métricas:
