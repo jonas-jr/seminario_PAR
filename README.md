@@ -21,7 +21,7 @@
 Emails: francielimoreira@discente.ufg.br, jonasjunior@discente.ufg.br, brakes_fares@discente.ufg.br, victorguerreiro@discente.ufg.br
 
 ## Resumo
-Este trabalho propõe o desenvolvimento de um robô utilizando Turtlebot para auxiliar na distribuição de medicamentos em hospitais. O robô será programado para entregar medicamentos específicos para cada paciente conforme configurado pela enfermeira, evitando obstáculos durante sua rota.
+Este trabalho propõe o desenvolvimento de um robô utilizando Turtlebot para auxiliar na distribuição de medicamentos em hospitais. O robô será programado para entregar medicamentos específicos para cada paciente conforme configurado pela enfermeira, navegando de forma autonôma e evitando obstáculos durante sua rota.
 
 **Palavras-chave**: robótica, Turtlebot, hospitais, distribuição de medicamentos, detecção de obstáculos.
 
@@ -138,7 +138,9 @@ A implementação do sistema de entrega de medicamentos utilizando o TurtleBot4 
 
 ### IV.  Referências
 
--https://github.com/aldodiaz-UFG/INF0429/
--https://turtlebot.github.io/turtlebot4-user-manual/tutorials/generate_map.html
--https://www.youtube.com/watch?v=T3if0aPj0Eo
+-DIAS, Aldo. INF0429 - Robotics. Disponível em: https://github.com/aldodiaz-UFG/INF0429/. Acesso em: 8 jul. 2024.
+
+-TURTLEBOT. Tutorials: Generate Map. Disponível em: https://turtlebot.github.io/turtlebot4-user-manual/tutorials/generate_map.html. Acesso em: 5 jul. 2024.
+
+-YouTube. Sistema de Distribuição de Medicamentos Hospitalar. Disponível em: https://www.youtube.com/watch?v=T3if0aPj0Eo. Acesso em: 5 jul. 2024.
 
