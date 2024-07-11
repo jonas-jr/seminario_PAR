@@ -98,7 +98,7 @@ Esta seção explica o processo metodológico para desenvolver o sistema de entr
 - **Testes de Integração**: Verificação da comunicação eficiente entre o site Streamlit, a API, e o robô. Testes para garantir que as ordens de medicamentos sejam processadas corretamente pelo robô. E se a rota e navegação estão de acordo com o local de entrega.
 
 ### D.  Implementação e Avaliação
-- **Implementação no Ambiente Real**: Implantação do robô TurtleBot no hospital, iniciando as operações de entrega baseadas nas ordens recebidas através do site Streamlit.
+- **Implementação no Ambiente Real**: Implantação do robô TurtleBot no ambiente real, iniciando as operações de entrega baseadas nas ordens recebidas através do site Streamlit.
 - **Monitoramento e Coleta de Dados**: Monitoramento contínuo para coletar dados sobre a precisão e a eficiência das entregas, bem como a usabilidade do site Streamlit.
 - **Avaliação do Desempenho**: Análise dos dados testes realizados para avaliar o sucesso das entregas, a integridade da comunicação via API e a possível satisfação dos usuários com a interface do site.
 
