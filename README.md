@@ -114,6 +114,8 @@ Esta seção explica o processo metodológico para desenvolver o sistema de entr
 -  (Figura 1: Mapa gerado pelo SLAM)
   
 -  **Rotas de Navegação**: As rotas planejadas e executadas pelo TurtleBot 4 foram monitoradas e registradas, como ilustrado na Figura 2. O robô conseguiu seguir as rotas planejadas com alta precisão.
+  
+![WhatsApp Image 2024-07-10 at 21 52 02](https://github.com/2024-1-INF0429-Robotics/seminario-carebot/assets/76070394/ff0abec8-1c6c-47d0-adff-c52e2f39e260)
 -  (Figura 2: Rotas planejadas e executadas pelo TurtleBot 4)
 
   
