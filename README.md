@@ -112,14 +112,14 @@ Esta seção explica o processo metodológico para desenvolver o sistema de entr
   ![WhatsApp Image 2024-07-10 at 21 54 59](https://github.com/2024-1-INF0429-Robotics/seminario-carebot/assets/76070394/7999a87e-1baf-40f7-b83a-ff7f4c7ae8db)
 -  (Figura 1: Mapa gerado pelo SLAM)
   
--  **Rotas de Navegação**: As rotas planejadas e executadas pelo TurtleBot 4 foram monitoradas e registradas utilizando o RVIZ2 com a utilização do Lidar para a detecção de objetos no caminho, além do uso simultâneo do 2Dpose Estimate e Nav2GOal pelo robô, como ilustrado na Figura 2. O robô conseguiu seguir as rotas planejadas com precisão.
+-  **Rotas de Navegação**: As rotas planejadas e executadas pelo TurtleBot 4 foram monitoradas e registradas utilizando o RVIZ2 com a utilização do Lidar para a detecção de objetos no caminho, além do uso simultâneo do 2Dpose Estimate e Nav2GOal pelo robô, como ilustrado na Figura 2. Assim, criamos um nó para publicar as coordenadas e o Robô conseguiu seguir as rotas planejadas com precisão.
   
 ![WhatsApp Image 2024-07-10 at 21 52 02](https://github.com/2024-1-INF0429-Robotics/seminario-carebot/assets/76070394/ff0abec8-1c6c-47d0-adff-c52e2f39e260)
 -  (Figura 2: Rotas planejadas e executadas pelo TurtleBot 4)
 
 ### A. Conclusões
 
-A implementação do sistema de entrega de medicamentos utilizando o TurtleBot4 demonstrou-se eficaz. A partir dos resultados obtidos, pudemos concluir que o robô consegue realizar entregas de um ponto ao outro utilizando os comandos configurados previamente. As principais lições aprendidas incluem:
+A implementação do sistema de entrega de medicamentos utilizando o TurtleBot4 demonstrou-se eficaz. A partir dos resultados obtidos, pudemos concluir que o robô consegue realizar entregas de um ponto ao outro utilizando os comandos configurados previamente. Tivemos uma Taax de sucesso nas entregas de 100%, além de um tempo médio de 1m20s em uma rota de 5metros. Contudo, as principais lições aprendidas incluem:
 
 -**Importância do Mapeamento Preciso**: A geração de um mapa detalhado do ambiente é crucial para o sucesso da navegação autônoma. A precisão do SLAM impacta diretamente na eficiência do robô em evitar obstáculos e seguir rotas planejadas.
 
