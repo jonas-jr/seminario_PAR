@@ -67,7 +67,6 @@ O impacto dos resultados é medido através das seguintes métricas:
 - **Tempo de Entrega**: Tempo médio necessário para completar uma entrega.
 - **Precisão na Navegação**: Acurácia do robô ao seguir as rotas planejadas e evitar obstáculos.
 - **Feedback dos Usuários**: Nível de satisfação dos profissionais de saúde com o desempenho do robô.
-- **Redução de Erros Humanos**: Comparação da taxa de erros antes e depois da implementação do robô.
   
 ## II.  Fundamentos Teóricos
 Nesta seção, discutimos os principais mecanismos, técnicas e algoritmos utilizados para desenvolver o sistema de entrega de medicamentos com o TurtleBot 4. Também explicamos como a eficácia da solução será avaliada.
