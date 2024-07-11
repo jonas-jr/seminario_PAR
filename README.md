@@ -76,7 +76,7 @@ Nesta seção, discutimos os principais mecanismos, técnicas e algoritmos utili
 - Para permitir a navegação autônoma do TurtleBot 4 no ambiente hospitalar, é necessário criar um mapa detalhado do local. Utilizamos o método SLAM (Simultaneous Localization and Mapping), que permite ao robô mapear o ambiente enquanto se localiza simultaneamente. Este processo envolve a execução de ROS2 (Robot Operating System), permitindo que o robô explore o ambiente e gere um mapa preciso. O uso do RVIZ, uma ferramenta de visualização em 3D, facilita a monitorização do mapeamento em tempo real. Após o mapeamento, o mapa gerado é salvo para ser utilizado posteriormente durante a navegação.
 
 ### B. Navegação
-- Com o mapa do ambiente hospitalar salvo, a próxima etapa é configurar a navegação autônoma do Robô. Este processo envolve a localização do robô dentro do mapa previamente gerado e o planejamento de rotas para entregar os medicamentos. A navegação é configurada utilizando 2Dpose Estimate e Nav2Goal para evitar obstáculos e seguir caminhos otimizados. A eficácia da navegação é monitorada através do RVIZ, permitindo ajustes em tempo real para melhorar o desempenho.
+- Com o mapa do ambiente hospitalar salvo, a próxima etapa é configurar a navegação autônoma do Robô. Este processo envolve a localização do robô dentro do mapa previamente gerado e o planejamento de rotas para entregar os medicamentos que é feita após a seleção do ponto de entrega pré estabelecido pela requisição feita pela enfermeira ou médico na API. A navegação é configurada utilizando as coordenadas enviadas pela API e são passadas para o 2Dpose Estimate e Nav2Goal para evitar obstáculos e seguir caminhos otimizados até este ponto. A eficácia da navegação é monitorada através do RVIZ, permitindo ajustes em tempo real para melhorar o desempenho.
 
 ## III.  Metodologia
 Esta seção explica o processo metodológico para desenvolver o sistema de entrega de medicamentos utilizando o robô TurtleBot, com ênfase na integração de um site em Streamlit que serve como interface para entrada de ordens de medicamentos e na comunicação dessas ordens ao robô através de uma API.
@@ -116,11 +116,6 @@ Esta seção explica o processo metodológico para desenvolver o sistema de entr
   
 ![WhatsApp Image 2024-07-10 at 21 52 02](https://github.com/2024-1-INF0429-Robotics/seminario-carebot/assets/76070394/ff0abec8-1c6c-47d0-adff-c52e2f39e260)
 -  (Figura 2: Rotas planejadas e executadas pelo TurtleBot 4)
-
-  
--  **Vídeos**
-
-Vídeos demonstrando a navegação autônoma e a entrega de medicamentos foram gravados e estão disponíveis para visualização. Estes vídeos mostram o robô seguindo rotas, evitando obstáculos e entregando medicamentos com sucesso.
 
 ### A. Conclusões
 
